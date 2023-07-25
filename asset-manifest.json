@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.98f39066.css",
-    "main.js": "/static/js/main.b9a847d1.js",
+    "main.css": "/static/css/main.59e279b0.css",
+    "main.js": "/static/js/main.9b27db90.js",
     "static/media/BookMyCar.png": "/static/media/BookMyCar.7c95c146d012ea41b4eb.png",
     "static/media/Myshop.png": "/static/media/Myshop.cbf5bf05cff90059288e.png",
     "static/media/Caratlane.png": "/static/media/Caratlane.09d15f2d67255ac6347e.png",
     "static/media/herobg.png": "/static/media/herobg.ad33add2430e34307c33.png",
+    "static/media/Trade24.png": "/static/media/Trade24.ee8a9f78a7affd48be28.png",
     "static/media/resume.pdf": "/static/media/resume.53936774d5e2587821d3.pdf",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
@@ -13,13 +14,14 @@
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/Rinkesh image.jpg": "/static/media/Rinkesh image.ba9d5c57b1351f907baa.jpg",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.98f39066.css.map": "/static/css/main.98f39066.css.map",
-    "main.b9a847d1.js.map": "/static/js/main.b9a847d1.js.map"
+    "main.59e279b0.css.map": "/static/css/main.59e279b0.css.map",
+    "main.9b27db90.js.map": "/static/js/main.9b27db90.js.map"
   },
   "entrypoints": [
-    "static/css/main.98f39066.css",
-    "static/js/main.b9a847d1.js"
+    "static/css/main.59e279b0.css",
+    "static/js/main.9b27db90.js"
   ]
 }
