@@ -2,13 +2,13 @@ import React from "react";
 import { BsFillPersonLinesFill, BsPhone } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import Resume from "../assets/resume.pdf";
+import Resume from "../assets/resume.pdf"
 
 const Contact = () => {
   function handleNewPage() {
-    // console.log("YES");
+    
     window.open(
-      `https://drive.google.com/file/d/1_ojSvjsIEUgXzoiU2SbWwp9QCFRrhipm/view?usp=sharing`,
+      `https://drive.google.com/file/d/14VgJuZ_uCFUXsmEmKbEP27_Zfm0S3hF3/view?usp=sharing`,
       "_blank"
     );
   }

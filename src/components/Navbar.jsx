@@ -17,7 +17,7 @@ const Navbar = () => {
   function handleNewPage() {
     // console.log("YES");
     window.open(
-      `https://drive.google.com/file/d/1_ojSvjsIEUgXzoiU2SbWwp9QCFRrhipm/view?usp=sharing`,
+      `https://drive.google.com/file/d/14VgJuZ_uCFUXsmEmKbEP27_Zfm0S3hF3/view?usp=sharing`,
       "_blank"
     );
   }

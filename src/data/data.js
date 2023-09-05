@@ -3,7 +3,7 @@ import MyShop from "../assets/projects/Myshop.png";
 import BookMyCar from "../assets/projects/BookMyCar.png";
 import Caratlane from "../assets/projects/Caratlane.png";
 import Trade from "../assets/Trade24.png"
-// hello
+
 
 
 export const data = [
