@@ -67,7 +67,7 @@ const Work = () => {
                   })}
                 </div>
                 <div className="pt-8 text-center">
-                  {/* eslint-disable-next-line */}
+              
                   <a
                     className="project-github-link"
                     href={item.github}
@@ -80,7 +80,7 @@ const Work = () => {
                       Code
                     </button>
                   </a>
-                  {/* eslint-disable-next-line */}
+              
                   <a
                     className="project-deployed-link"
                     href={item.live}

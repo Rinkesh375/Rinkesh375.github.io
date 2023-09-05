@@ -1,5 +1,5 @@
 import React from "react";
-
+import Rinkesh_Image from "../assets/Rinkesh image.jpg"
 
 
 const About = () => {
@@ -38,6 +38,17 @@ const About = () => {
             </p>
           </div>
         </div>
+
+        <div style={{ marginTop: "5rem" }}>
+          <img
+            style={{ objectFit: "contain" }}
+            className="home-img object-fill rounded-full xs:w-[200px] xs:h-[200px] md:w-[400px] md:h-[400px]"
+            src={Rinkesh_Image}
+            alt=""
+          />
+        </div>
+
+
       </div>
     </div>
   );

@@ -18,7 +18,8 @@ const Stats = () => {
             />
           </a>
         </div>
-        <div src="rinkesh375/github-readme-stats.vercel.app/api">
+        {/* keep it commented */}
+        {/* <div src="rinkesh375/github-readme-stats.vercel.app/api">
           <picture
             // id="github-top-langs"
             src="https://github-readme-stats.vercel.app/api?username=Rinkesh375&show_icons=true&theme=nord"
@@ -32,10 +33,18 @@ const Stats = () => {
               // id="github-stats-card"
               id="github-top-langs"
               className="w-[100%]"
-              
-              src="https://github-readme-activity-graph.cyclic.app/graph?username=Rinkesh375&bg_color=000000&color=ffffff&line=0891b2&point=ffffff&area_color=000000&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" //COMMENT THIS
+              src="https://github-readme-stats.vercel.app/api/top-langs?username=Rinkesh375&show_icons=true&locale=en&layout=compact" //UNCOMMENT THIS
+              alt="top_languages"
+               //COMMENT THIS
             />
           </picture>
+        </div> */}
+          <div>
+          <img
+            id="github-stats-card"
+            src="https://github-readme-stats.vercel.app/api?username=Rinkesh375&show_icons=true&locale=en&theme=nord"
+            alt="Rinkesh"
+          />
         </div>
    
       </div>
@@ -55,15 +64,16 @@ const Stats = () => {
           username="Rinkesh375"
         />
       </div>
-
+      {/*uncomment */}
+{/* 
       <div className="mt-16">
         <a href="http://www.github.com/Rinkesh375">
           <img
-            src="https://github-readme-activity-graph.cyclic.app/graph?username=Rinkesh375&bg_color=12000&color=ffffff&line=0891b2&point=ffffff&area_color=000000&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph"
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=Rinkesh375&show_icons=true&locale=en&layout=compact"
             alt="GitHub Commits Graph"
           />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
