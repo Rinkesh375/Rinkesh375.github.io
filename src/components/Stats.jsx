@@ -6,20 +6,21 @@ const Stats = () => {
     <div className="max-w-[1000px] mx-auto  p-4 w-full h-screen xs:h-full xs:pt-[100px] md:pt-[200px] lg:pt-40 lg:pb-40 xl:pt-0 bg-[#030519] lg:flex flex-col justify-center items-center ">
       <div className="flex xs:gap-16 xs:flex-col md:flex-row md:gap-6">
         <div
-    
+        // src="https://github-readme-streak-stats.herokuapp.com/?user=Rinkesh375&"
+
+        // src="https://streak-stats.demolab.com?user=Rinkesh375&theme=nord"
         >
           <a href="https://github.com/Rinkesh375">
             <img
               id="github-streak-stats"
               className="w-[100%] "
-              
-              alt="Rinkesh"
-              src="https://github-readme-streak-stats.herokuapp.com/?user=Rinkesh375&theme=nord" 
+              // src="https://github-readme-streak-stats.herokuapp.com/?user=Rinkesh375&" //UNCOMMENT
+              alt="Rinkesh375"
+              src="https://streak-stats.demolab.com?user=Rinkesh375&theme=nord" //COMMENT THIS
             />
           </a>
         </div>
-        {/* keep it commented */}
-        {/* <div src="rinkesh375/github-readme-stats.vercel.app/api">
+        <div src="Rinkesh375/github-readme-stats.vercel.app/api">
           <picture
             // id="github-top-langs"
             src="https://github-readme-stats.vercel.app/api?username=Rinkesh375&show_icons=true&theme=nord"
@@ -33,20 +34,20 @@ const Stats = () => {
               // id="github-stats-card"
               id="github-top-langs"
               className="w-[100%]"
-              src="https://github-readme-stats.vercel.app/api/top-langs?username=Rinkesh375&show_icons=true&locale=en&layout=compact" //UNCOMMENT THIS
+              // src="https://github-readme-stats.vercel.app/api/top-langs?username=Rinkesh375&show_icons=true&locale=en&layout=compact" //UNCOMMENT THIS
               alt="top_languages"
-               //COMMENT THIS
+              src="https://github-readme-stats.vercel.app/api?username=Rinkesh375&show_icons=true&theme=nord" //COMMENT THIS
             />
           </picture>
-        </div> */}
-          <div>
+        </div>
+        {/* UNCOMMENT BELOW */}
+        {/* <div>
           <img
             id="github-stats-card"
-            src="https://github-readme-stats.vercel.app/api?username=Rinkesh375&show_icons=true&locale=en&theme=nord"
-            alt="Rinkesh"
+            src="https://github-readme-stats.vercel.app/api?username=Rinkesh375&show_icons=true&locale=en"
+            alt="Rinkesh375"
           />
-        </div>
-   
+        </div> */}
       </div>
 
       <div>
@@ -57,19 +58,18 @@ const Stats = () => {
             marginTop: "4rem",
             padding: "0 1rem 0 1rem",
           }}
-          year={"2023"}
+          year={"last"}
           showWeekdayLabels={true}
           hideColorLegend
           hideTotalCount
           username="Rinkesh375"
         />
       </div>
-      {/*uncomment */}
-{/* 
-      <div className="mt-16">
+
+      {/* <div className="mt-16">
         <a href="http://www.github.com/Rinkesh375">
           <img
-            src="https://github-readme-stats.vercel.app/api/top-langs?username=Rinkesh375&show_icons=true&locale=en&layout=compact"
+            src="https://github-readme-activity-graph.cyclic.app/graph?username=Rinkesh375&bg_color=12000&color=ffffff&line=0891b2&point=ffffff&area_color=000000&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph"
             alt="GitHub Commits Graph"
           />
         </a>

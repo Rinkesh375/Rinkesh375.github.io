@@ -15,7 +15,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   function handleNewPage() {
-    // console.log("YES");
+   
     window.open(
       `https://drive.google.com/file/d/14VgJuZ_uCFUXsmEmKbEP27_Zfm0S3hF3/view?usp=sharing`,
       "_blank"

@@ -29,7 +29,7 @@ export const data = [
     pName: "Trade24",
     pDesc:
       "Trade24 is a clone of E*Trade.E*Trade is a Stock market website which sells variety of Stock",
-    github: "https://github.com/vsachin42/tired-rail-4343",
+    github: "https://github.com/Rinkesh375/Trade24",
     live: "https://trade24.vercel.app/",
     tech: [
       { name: "#ReactJS", color: "red" },
