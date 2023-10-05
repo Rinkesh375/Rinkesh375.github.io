@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.363d5fe4.css",
-    "main.js": "/static/js/main.ddbfb2e9.js",
+    "main.js": "/static/js/main.47680a8d.js",
     "static/media/BookMyCar.png": "/static/media/BookMyCar.7c95c146d012ea41b4eb.png",
     "static/media/Myshop.png": "/static/media/Myshop.cbf5bf05cff90059288e.png",
     "static/media/Caratlane.png": "/static/media/Caratlane.09d15f2d67255ac6347e.png",
@@ -18,10 +18,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.363d5fe4.css.map": "/static/css/main.363d5fe4.css.map",
-    "main.ddbfb2e9.js.map": "/static/js/main.ddbfb2e9.js.map"
+    "main.47680a8d.js.map": "/static/js/main.47680a8d.js.map"
   },
   "entrypoints": [
     "static/css/main.363d5fe4.css",
-    "static/js/main.ddbfb2e9.js"
+    "static/js/main.47680a8d.js"
   ]
 }
