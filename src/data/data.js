@@ -32,7 +32,7 @@ export const data = [
     pName: "Electro World",
     pDesc:"Electro-World is a thriving e-commerce website specializing in a wide range of electronic products, including mobile phones, laptops, televisions, and more",
     github: "https://github.com/Rinkesh375/Electro-world",
-    live: "https://electro-world-beta.vercel.app/",
+    live: "https://electro-world-delta.vercel.app/",
     tech: [
       { name: "#ReactJS", color: "red" },
       { name: "#Node js", color: "green" },
