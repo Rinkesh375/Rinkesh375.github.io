@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e2342d5.css",
-    "main.js": "/static/js/main.0bd07b0e.js",
+    "main.css": "/static/css/main.e0651f00.css",
+    "main.js": "/static/js/main.7a5205c0.js",
     "static/media/BookMyCar.png": "/static/media/BookMyCar.7c95c146d012ea41b4eb.png",
     "static/media/Myshop.png": "/static/media/Myshop.cbf5bf05cff90059288e.png",
     "static/media/Caratlane.png": "/static/media/Caratlane.09d15f2d67255ac6347e.png",
@@ -21,11 +21,11 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/chakraUi.jfif": "/static/media/chakraUi.75ac18c74d2d25c70d92.jfif",
     "index.html": "/index.html",
-    "main.4e2342d5.css.map": "/static/css/main.4e2342d5.css.map",
-    "main.0bd07b0e.js.map": "/static/js/main.0bd07b0e.js.map"
+    "main.e0651f00.css.map": "/static/css/main.e0651f00.css.map",
+    "main.7a5205c0.js.map": "/static/js/main.7a5205c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e2342d5.css",
-    "static/js/main.0bd07b0e.js"
+    "static/css/main.e0651f00.css",
+    "static/js/main.7a5205c0.js"
   ]
 }
