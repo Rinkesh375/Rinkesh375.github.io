@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 import backLogo from "./assets/herobg.png";
 import Stats from "./components/Stats";
+import Experience from "./components/Experience";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Skills />
         <Work />
         <Stats />
+        <Experience/>
         <Contact />
       </div>
     </div>

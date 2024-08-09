@@ -1,10 +1,5 @@
 import React, { useState } from "react";
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill, BsPhone } from "react-icons/bs";
 
@@ -15,7 +10,6 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   function handleNewPage() {
-   
     window.open(
       `https://drive.google.com/file/d/1CSG6HFuYxsdBXbZErdTcfbgjfVVhooqP/view?usp=sharing`,
       "_blank"
@@ -28,17 +22,11 @@ const Navbar = () => {
       className="fixed w-full h-[80px] flex justify-between items-center z-10 px-4 bg-[#030519] text-gray-300"
     >
       <div className="flex justify-center items-center font-extrabold">
-      
         <div id="user-detail-name">Rinkesh</div>
       </div>
 
       {/* menu */}
       <ul className="hidden md:flex">
-        <li className="nav-link home">
-          <Link to="home" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
         <li className="nav-link about">
           <Link to="about" smooth={true} duration={500}>
             About
@@ -54,13 +42,23 @@ const Navbar = () => {
             Work
           </Link>
         </li>
+        <li className="nav-link projects">
+          <Link to="experience" smooth={true} duration={500}>
+            Experience
+          </Link>
+        </li>
         <li className="nav-link contact">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
         <li id="resume-button-1" className="nav-link resume">
-          <a id="resume-link-1" href={Resume} download={"Rinkesh-Resume"} onClick={handleNewPage}>
+          <a
+            id="resume-link-1"
+            href={Resume}
+            download={"Rinkesh-Resume"}
+            onClick={handleNewPage}
+          >
             Resume
           </a>
         </li>
@@ -80,11 +78,6 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li className="py-6 text-4xl">
           {" "}
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
@@ -94,6 +87,11 @@ const Navbar = () => {
           {" "}
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
+          </Link>
+        </li>
+        <li className="nav-link projects">
+          <Link to="work" smooth={true} duration={500}>
+            Work
           </Link>
         </li>
         <li className="py-6 text-4xl">

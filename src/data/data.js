@@ -5,6 +5,7 @@ import Caratlane from "../assets/projects/Caratlane.png";
 import Trade from "../assets/Trade24.png"
 import ElectroWorld from "../assets/projects/ElectroWorldImage.png"
 import Saavn from "../assets/projects/SaavanMusicApp.png"
+import Epesign from "../assets/jobs/Epesign-Logo.png"
 
 
 
@@ -26,11 +27,11 @@ export const data = [
     ],
   },
   {
-    id:2,
+    id: 2,
     name: "React JS Application",
     image: ElectroWorld,
     pName: "Electro World",
-    pDesc:"Electro-World is a thriving e-commerce website specializing in a wide range of electronic products, including mobile phones, laptops, televisions, and more",
+    pDesc: "Electro-World is a thriving e-commerce website specializing in a wide range of electronic products, including mobile phones, laptops, televisions, and more",
     github: "https://github.com/Rinkesh375/Electro-world",
     live: "https://electro-world-delta.vercel.app/",
     tech: [
@@ -38,13 +39,13 @@ export const data = [
       { name: "#Node js", color: "green" },
       { name: "#Mongo DB", color: "red" },
       { name: "#Express", color: "green" },
-     
-      
 
-   
+
+
+
     ],
   },
-  
+
   {
     id: 3,
     name: "React JS Application",
@@ -60,9 +61,9 @@ export const data = [
       { name: "#Mongo DB", color: "red" },
       { name: "#Express", color: "green" },
 
-      
 
-   
+
+
     ],
   },
   {
@@ -75,14 +76,14 @@ export const data = [
     github: "https://github.com/Rinkesh375/saavn-music-app",
     live: "https://saavn-music-app.vercel.app/",
     tech: [
-    
+
       { name: "#JavaScript", color: "red" },
       { name: "#ReactJs", color: "green" },
       { name: "#TailwindCSS", color: "red" },
 
     ],
   },
-  
+
   {
     id: 5,
     name: "JavaScript Application",
@@ -115,6 +116,29 @@ export const data = [
       { name: "#JavaScript", color: "red" },
       { name: "#json-server", color: "green" },
     ],
+  }
+];
+
+
+export const experienceData = [
+
+
+  {
+    title: "Full Stack Developer",
+    date: "July 2023 - Present",
+    company: "EPESIGN TECHNOLOGIES PRIVATE LIMITED",
+    image: Epesign,
+    work: [
+      `Contributed to the development of multiple projects, building robust and scalable applications using Next.js, Nest.js, Node.js, and MongoDB.`,
+      `Implemented secure image and video storage solutions using AWS S3, ensuring efficient handling of media assets.`,
+      `Assisted in developing and integrating authentication systems, utilizing NextAuth.js and AWS for secure user login, password reset, and token-based authorization.`,
+      `Proactively identified and resolved critical bugs across the stack, enhancing application performance and user experience.`,
+      `Worked on delivering end-to-end features, including product search, filtering, and sorting options, as well as role-based access for admins, operators, and users.`,
+      `Ensured all applications were fully responsive, delivering a seamless experience across mobile, tablet, and desktop devices.`,
+      `Integrated order tracking and payment processing with Razorpay, providing users with real-time status updates and secure transactions.`
+
+    ],
+    iconBg: "#FFFFFF",
   }
 ];
 
