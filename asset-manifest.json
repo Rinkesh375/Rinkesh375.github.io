@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.82b5ab96.css",
-    "main.js": "/static/js/main.1ec7f864.js",
+    "main.css": "/static/css/main.aa7eb4a9.css",
+    "main.js": "/static/js/main.cc8920d7.js",
     "static/media/BookMyCar.png": "/static/media/BookMyCar.7c95c146d012ea41b4eb.png",
     "static/media/Myshop.png": "/static/media/Myshop.cbf5bf05cff90059288e.png",
     "static/media/Caratlane.png": "/static/media/Caratlane.09d15f2d67255ac6347e.png",
@@ -19,11 +19,11 @@
     "static/media/Rinkesh image.jpg": "/static/media/Rinkesh image.ba9d5c57b1351f907baa.jpg",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.82b5ab96.css.map": "/static/css/main.82b5ab96.css.map",
-    "main.1ec7f864.js.map": "/static/js/main.1ec7f864.js.map"
+    "main.aa7eb4a9.css.map": "/static/css/main.aa7eb4a9.css.map",
+    "main.cc8920d7.js.map": "/static/js/main.cc8920d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.82b5ab96.css",
-    "static/js/main.1ec7f864.js"
+    "static/css/main.aa7eb4a9.css",
+    "static/js/main.cc8920d7.js"
   ]
 }
