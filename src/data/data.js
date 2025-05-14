@@ -125,7 +125,7 @@ export const experienceData = [
 
   {
     title: "Full Stack Developer",
-    date: "July 2023 - Present",
+    date: "February 2024 - Present",
     company: "EPESIGN TECHNOLOGIES PRIVATE LIMITED",
     image: Epesign,
     work: [
