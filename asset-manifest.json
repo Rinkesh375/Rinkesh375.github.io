@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.82b5ab96.css",
-    "main.js": "/static/js/main.c5b5d5cb.js",
+    "main.js": "/static/js/main.8aa4bdc1.js",
     "static/media/BookMyCar.png": "/static/media/BookMyCar.7c95c146d012ea41b4eb.png",
     "static/media/Myshop.png": "/static/media/Myshop.cbf5bf05cff90059288e.png",
     "static/media/Caratlane.png": "/static/media/Caratlane.09d15f2d67255ac6347e.png",
@@ -9,7 +9,7 @@
     "static/media/herobg.png": "/static/media/herobg.ad33add2430e34307c33.png",
     "static/media/SaavanMusicApp.png": "/static/media/SaavanMusicApp.7b4204cfe073d11e2b99.png",
     "static/media/Trade24.png": "/static/media/Trade24.ee8a9f78a7affd48be28.png",
-    "static/media/resume.pdf": "/static/media/resume.caeab2513b038a980889.pdf",
+    "static/media/resume.pdf": "/static/media/resume.0a0f895c5145545ed592.pdf",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/mongo.png": "/static/media/mongo.2a1528ddc31d4ce8518d.png",
@@ -20,10 +20,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.82b5ab96.css.map": "/static/css/main.82b5ab96.css.map",
-    "main.c5b5d5cb.js.map": "/static/js/main.c5b5d5cb.js.map"
+    "main.8aa4bdc1.js.map": "/static/js/main.8aa4bdc1.js.map"
   },
   "entrypoints": [
     "static/css/main.82b5ab96.css",
-    "static/js/main.c5b5d5cb.js"
+    "static/js/main.8aa4bdc1.js"
   ]
 }
