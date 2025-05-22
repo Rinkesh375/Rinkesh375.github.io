@@ -8,7 +8,7 @@ const Contact = () => {
   function handleNewPage() {
     
     window.open(
-      `https://drive.google.com/file/d/1CSG6HFuYxsdBXbZErdTcfbgjfVVhooqP/view?usp=sharing`,
+      `https://drive.google.com/file/d/1ov5L11cxM2SkcXlStwXTVEC1sWlATVY9/view?usp=sharing`,
       "_blank"
     );
   }
