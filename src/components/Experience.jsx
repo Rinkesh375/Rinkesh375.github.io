@@ -62,7 +62,7 @@ const ExperienceCard = ({ job }) => {
         {job.work.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className="text-white-100 text-[14px] pl-1 tracking-wider"
+            className="text-white-100  pl-1 tracking-wider text-lg"
           >
             {point}
           </li>

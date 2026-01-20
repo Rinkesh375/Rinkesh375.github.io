@@ -1,17 +1,63 @@
-
 import MyShop from "../assets/projects/Myshop.png";
 import BookMyCar from "../assets/projects/BookMyCar.png";
 import Caratlane from "../assets/projects/Caratlane.png";
-import Trade from "../assets/Trade24.png"
-import ElectroWorld from "../assets/projects/ElectroWorldImage.png"
-import Saavn from "../assets/projects/SaavanMusicApp.png"
-import Epesign from "../assets/jobs/Epesign-Logo.png"
-
-
+import Trade from "../assets/Trade24.png";
+import ElectroWorld from "../assets/projects/ElectroWorldImage.png";
+import Saavn from "../assets/projects/SaavanMusicApp.png";
+import Epesign from "../assets/jobs/Epesign-Logo.png";
+import CodeReviewer from "../assets/projects/Code Reviewer.AI.png";
+import Summarizer from "../assets/projects/Summarizer.AI.png";
 
 export const data = [
   {
     id: 1,
+    name: "Next JS Application",
+    pName: "Code Reviewer.AI",
+    pDesc:
+      "Code Reviewer.AI connects to public and private Git repositories and automatically reviews pull requests using AI.",
+    image: CodeReviewer,
+    github: "https://github.com/Rinkesh375/Code-Reviewer.AI",
+    live: "https://code-reviewer-ai-five.vercel.app/",
+    tech: [
+      { name: "#NextJS", color: "white" },
+      { name: "#TailwindCSS", color: "cyan" },
+      { name: "#shadcn/ui", color: "gray" },
+      { name: "#TanStack", color: "orange" },
+      { name: "#PostgreSQL", color: "blue" },
+      { name: "#Prisma", color: "indigo" },
+      { name: "#BetterAuth", color: "emerald" },
+      { name: "#GitHub", color: "slate" },
+      { name: "#OpenAI", color: "green" },
+      { name: "#GeminiAI", color: "purple" },
+      { name: "#GenerativeAI", color: "pink" },
+    ],
+  },
+  {
+    id: 2,
+    name: "Next-Prisma Application",
+    pName: "Summarizer.AI",
+    pDesc:
+      "Summarizer.AI is an AI-powered tool that transforms lengthy PDF documents into concise, readable summaries using Google and OpenAI APIs for accurate content understanding.",
+    image: Summarizer,
+    github: "https://github.com/Rinkesh375/Summarizer.AI",
+    live: "https://summarizer-ai-green.vercel.app",
+    tech: [
+      { name: "#TypeScript", color: "blue" },
+      { name: "#PostgreSQL", color: "sky" },
+      { name: "#GeminiAPI", color: "violet" },
+      { name: "#OpenAI", color: "emerald" },
+      { name: "#ClerkAuth", color: "rose" },
+      { name: "#LangChain", color: "amber" },
+      { name: "#shadcn/ui", color: "gray" },
+      { name: "#UploadThing", color: "indigo" },
+      { name: "#TailwindCSS", color: "cyan" },
+      { name: "#Stripe", color: "green" },
+      { name: "#NextJS", color: "white" },
+    ],
+  },
+
+  {
+    id: 3,
     name: "React JS Application",
     pName: "MyShop",
     pDesc:
@@ -27,11 +73,12 @@ export const data = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     name: "React JS Application",
     image: ElectroWorld,
     pName: "Electro World",
-    pDesc: "Electro-World is a thriving e-commerce website specializing in a wide range of electronic products, including mobile phones, laptops, televisions, and more",
+    pDesc:
+      "Electro-World is a thriving e-commerce website specializing in a wide range of electronic products, including mobile phones, laptops, televisions, and more",
     github: "https://github.com/Rinkesh375/Electro-world",
     live: "https://electro-world-delta.vercel.app/",
     tech: [
@@ -39,15 +86,11 @@ export const data = [
       { name: "#Node js", color: "green" },
       { name: "#Mongo DB", color: "red" },
       { name: "#Express", color: "green" },
-
-
-
-
     ],
   },
 
   {
-    id: 3,
+    id: 5,
     name: "React JS Application",
     image: Trade,
     pName: "Trade24",
@@ -60,14 +103,10 @@ export const data = [
       { name: "#Node js", color: "green" },
       { name: "#Mongo DB", color: "red" },
       { name: "#Express", color: "green" },
-
-
-
-
     ],
   },
   {
-    id: 4,
+    id: 6,
     name: "React JS Application",
     image: Saavn,
     pName: "Saavn Music",
@@ -76,16 +115,14 @@ export const data = [
     github: "https://github.com/Rinkesh375/saavn-music-app",
     live: "https://saavn-music-app.vercel.app/",
     tech: [
-
       { name: "#JavaScript", color: "red" },
       { name: "#ReactJs", color: "green" },
       { name: "#TailwindCSS", color: "red" },
-
     ],
   },
 
   {
-    id: 5,
+    id: 7,
     name: "JavaScript Application",
     image: Caratlane,
     pName: "JewelVibeHub",
@@ -98,11 +135,10 @@ export const data = [
       { name: "#CSS", color: "green" },
       { name: "#JavaScript", color: "red" },
       { name: "#json-server", color: "green" },
-
     ],
   },
   {
-    id: 6,
+    id: 8,
     name: "JavaScript Application",
     image: BookMyCar,
     pName: "BookMyCar",
@@ -116,29 +152,28 @@ export const data = [
       { name: "#JavaScript", color: "red" },
       { name: "#json-server", color: "green" },
     ],
-  }
+  },
 ];
 
-
 export const experienceData = [
-
-
   {
     title: "Full Stack Developer",
-    date: "February 2024 - Present",
+    date: "February 2024 - January 2026",
     company: "EPESIGN TECHNOLOGIES PRIVATE LIMITED",
     image: Epesign,
     work: [
-      `Contributed to the development of multiple projects, building robust and scalable applications using Next.js, Nest.js, Node.js, and MongoDB.`,
-      `Implemented secure image and video storage solutions using AWS S3, ensuring efficient handling of media assets.`,
-      `Assisted in developing and integrating authentication systems, utilizing NextAuth.js and AWS for secure user login, password reset, and token-based authorization.`,
-      `Proactively identified and resolved critical bugs across the stack, enhancing application performance and user experience.`,
-      `Worked on delivering end-to-end features, including product search, filtering, and sorting options, as well as role-based access for admins, operators, and users.`,
-      `Ensured all applications were fully responsive, delivering a seamless experience across mobile, tablet, and desktop devices.`,
-      `Integrated order tracking and payment processing with Razorpay, providing users with real-time status updates and secure transactions.`
-
+      `Developed scalable and responsive full-stack applications using Next.js, NestJS, Node.js, MongoDB, Zustand, and Tailwind CSS.`,
+      `Built frontend architecture from scratch with modular, DRY principles and advanced state management for long-term maintainability.`,
+      `Improved application performance by reducing unnecessary API calls and re-renders using profiling, memoization, and optimized React hooks.`,
+      `Enhanced web performance and best practices using Google Lighthouse audits, significantly improving page performance scores.`,
+      `Designed and developed backend systems with a focus on scalability, clean architecture, and efficient data handling.`,
+      `Optimized Elasticsearch indexing strategies to enable fast, efficient full-text search while reducing database load.`,
+      `Implemented secure file storage using AWS S3 for images, Gerber files, and BOM files with proper access management.`,
+      `Integrated authentication and role-based access control (RBAC) for admin, operator, and user workflows.`,
+      `Enabled secure payment processing and real-time order tracking using Razorpay.`,
+      `Integrated analytics and third-party APIs (Google Analytics, Zoho Books) to automate invoicing, track sales, and support data-driven product decisions.`,
     ],
-    iconBg: "#FFFFFF",
-  }
-];
 
+    iconBg: "#FFFFFF",
+  },
+];
