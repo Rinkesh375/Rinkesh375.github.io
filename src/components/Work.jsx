@@ -48,7 +48,7 @@ const Projects = () => {
                     : project.pDesc}
                 </p>
 
-                <div className="flex flex-wrap gap-2 mb-6 text-lg">
+                <div className="flex flex-wrap gap-2 mb-6 ">
                   {project.tech.map((techStack, index) => (
                     <span
                       key={index}
@@ -57,7 +57,7 @@ const Projects = () => {
                         borderColor: techStack.color,
                         color: techStack.color,
                       }}
-                      className="px-3 py-1 text-xs font-semibold rounded-full border"
+                      className="px-3 py-1  font-semibold rounded-full border text-lg"
                     >
                       {techStack.name}
                     </span>
